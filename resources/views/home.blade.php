@@ -8,5 +8,8 @@
 </head>
 <body>
     Ciao
+    @foreach ($movies as $movie)
+        1
+    @endforeach
 </body>
 </html>

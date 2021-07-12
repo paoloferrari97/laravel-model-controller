@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+        <h1>Lista Film:</h1>
         <div class="cards">
             @foreach ($movies as $movie)
             <div class="card">

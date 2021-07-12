@@ -7,9 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    Ciao
     @foreach ($movies as $movie)
-        1
+        {{$movie['title']}}
     @endforeach
 </body>
 </html>

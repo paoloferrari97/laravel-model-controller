@@ -10,15 +10,15 @@
 <body>
     <div class="container">
         <div class="cards">
+            @foreach ($movies as $movie)
             <div class="card">
-                @foreach ($movies as $movie)
                 <h3>{{$movie['title']}}</h3>
                 <h4>({{$movie['original_title']}})</h4>
                 <span>Nazonalità: {{$movie['nationality']}}</span>
                 <span>Uscita nelle sale: {{$movie['date']}}</span>
                 <span>Votazione: {{$movie['vote']}}</span>
-                @endforeach
             </div>            
+            @endforeach
         </div>
     </div>
 </body>

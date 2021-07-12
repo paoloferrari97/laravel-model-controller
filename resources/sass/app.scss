@@ -3,3 +3,17 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 80%;
+    margin: auto;
+    .cards {
+        margin: 100px 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .card {
+            width: 200px;
+        }
+    }
+}
